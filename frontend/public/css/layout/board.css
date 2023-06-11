@@ -1,0 +1,29 @@
+article{
+    display: flex;
+    width: 890px;
+    padding: 20px;
+}
+.board-context {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.board-context__article {
+    overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        line-height: 1.2;
+        text-align: left;
+        word-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 2 ;
+        -webkit-box-orient: vertical;
+}
+.board-sub {
+    width: 20%;
+    
+}
+.user__img {
+    width: 24px;
+    height: 24px;
+}

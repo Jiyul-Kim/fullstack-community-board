@@ -1,0 +1,35 @@
+<%- include('partials/head') %>
+<body>
+    <%- include('partials/nav') %>
+
+    <div class="user">
+        <img src="<%= post.img %>" alt="" class="user__img">
+        <div>
+            <span><%= post.username %></span>
+            <span><%= post.date %></span>
+        </div>
+    </div>
+    <h1><%= post.title %></h1>
+    <p><%= post.article %></p>
+    <div class="board-sub">
+        <div>
+          <span class="material-icons-outlined">
+            visibility
+          </span>
+          <span><%= post.view %></span>
+        </div>
+        <div>
+          <span class="material-icons-outlined">
+            thumb_up
+          </span>
+          <span><%= post.good %></span>
+        </div>
+        <div>
+          <span class="material-icons-outlined">
+            textsms
+          </span>
+          <span><%= (post.comment).length %></span>
+        </div>
+      </div>
+</body>
+</html>

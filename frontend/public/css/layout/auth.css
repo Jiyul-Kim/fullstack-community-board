@@ -1,0 +1,73 @@
+.signup {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 77px;
+}
+.signup section{
+    margin: 200px;
+}
+.auth-title {
+  display: flex;
+  align-items: center;
+}
+.line {
+  height: 1.5px;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.auth-title h1 {
+  padding-right: 10px;
+}
+.auth-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+  width: 100%;
+}
+.auth-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 100%;
+}
+.auth-input input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.auth-btn {
+  background-color: var(--main-color);
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  border: 0;
+  color: var(--none-font);
+}
+.auth-status-container {
+    display: flex;
+    gap: 13px;
+    
+}
+.auth-status-container a {
+    font-weight: 700;
+    color: var(--font-bold);
+    text-decoration:underline;
+}

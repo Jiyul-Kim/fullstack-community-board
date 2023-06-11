@@ -1,0 +1,30 @@
+<%- include('partials/head') %>
+
+<body class="signup">
+  <section>
+    <div class="auth-title">
+      <h1>LOG IN</h1>
+      <div class="line"></div>
+    </div>
+    <div class="auth-container">
+      <form action="/board" method="post">
+        <div class="auth-input">
+          <label for="id">아이디</label>
+          <input type="text" name="id" id="id" required>
+        </div>
+        <div class="auth-input">
+          <label for="password">비밀번호</label>
+          <input type="password" name="password" id="password" required>
+        </div>
+        <button class="auth-btn">로그인</button>
+      </form>
+      <div class="auth-status-container">
+        <span>아직 회원이 아니신가요?</span>
+        <a href="/signup">회원가입</a>
+      </div>
+      
+    </div>
+  </section>
+</body>
+
+</html>

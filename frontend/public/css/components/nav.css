@@ -1,0 +1,45 @@
+nav {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  align-items: center;
+  height: 86px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+nav > div {
+  display: flex;
+  gap: 26px;
+}
+.auth-control-panel {
+  display: flex;
+  gap: 12px;
+  height: 100%;
+  width: 25%;
+}
+.login-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  background-color: white;
+  width: 100%;
+}
+.sign-up-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  background: #f7cb32;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  width: 120%;
+  box-sizing: border-box;
+}
