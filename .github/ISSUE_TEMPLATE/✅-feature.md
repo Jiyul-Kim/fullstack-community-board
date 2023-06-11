@@ -1,6 +1,6 @@
 ---
-name: "\U0001F41E BUG"
-about: 버그 발생 시 사용하는 템플릿입니다
+name: "✅ FEATURE"
+about: Feature 작업 사항을 입력하세요.
 title: ''
 labels: ''
 assignees: ''
