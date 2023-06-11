@@ -3,23 +3,27 @@ const app = express();
 const path = require("path");
 const port = 3000;
 const boardData = require('./data.json')
+const ejsMate = require('ejs-mate');
 
 
 app.use(express.static(path.join(__dirname, "public")));
 
+app.engine('ejs', ejsMate);
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
+// 로그인
 app.get('/login', (req, res) => {
   res.render('login')
   res.redirect('/board')
 })
 
+// 회원가입
 app.get('/signup', (req, res) => {
   res.render('signup')
 })
 
-
+// 전체 게시판
 app.get("/board", (req, res) => {
   const allPosts = [
       ...boardData.notice.posts,
@@ -28,6 +32,12 @@ app.get("/board", (req, res) => {
   ];
   res.render("board", { posts: allPosts });
 });
+
+app.get('/board/new', (req, res) => {
+  res.render('new')
+})
+
+// 서브 게시판의 종류에 따라 테이블로 표현
 app.get('/:subboard', (req, res) => {
     const { subboard } = req.params;
     const data = boardData[subboard];
@@ -35,6 +45,9 @@ app.get('/:subboard', (req, res) => {
     res.render('subboard', {...data})
 })
 
+
+
+// 게시글 페이지
 app.get('/board/:id', (req, res) => {
   const { id } = req.params;
 
