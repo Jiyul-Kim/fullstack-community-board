@@ -1,0 +1,100 @@
+{
+  "notice": {
+    "name": "notice",
+    "posts": [
+      {
+        "id": 1,
+        "img": "https://cdn.pixabay.com/photo/2023/05/31/17/54/cat-8031947_1280.jpg",
+        "username": "OOO관계자",
+        "title": "애니메이션 산업 포럼 개최 안내",
+        "article": "애니메이션 산업 관계자 및 애니메이션 팬 여러분께 알립니다. 애니메이션 산업 포럼이 다음 주에 개최될 예정입니다. 이 포럼은 애니메이션 제작과 관련된 주요 주제들을 다루며, 각 분야의 전문가들이 참여하여 인사이트를 공유하고 토론하는 자리입니다. 포럼에서는 애니메이션 제작 기술의 최신 동향, 시장 상황, 예술적인 창작 과정 등에 대해 다룰 예정이며, 산업 내 주요 이슈들에 대해 공동으로 해결책을 모색할 것입니다. 다양한 분야의 전문가와 함께하는 이번 포럼은 새로운 아이디어를 도출하고 협력 기회를 모색하는 훌륭한 자리가 될 것입니다. 참여 방법과 주요 일정은 별도의 공지로 안내될 예정이니, 많은 관심과 참여를 부탁드립니다.",
+        "tag": "공지사항",
+        "date": "06-06",
+        "view": 33,
+        "modified": false,
+        "good": 1,
+        "comment": [
+          {
+            "username": "렌고쿠",
+            "date": "06-06",
+            "good": 0,
+            "description": "애니메이션 산업 포럼에서 산업 내 주요 이슈들에 대한 해결책 모색이 이뤄진다는 소식에 너무 기대됩니다.",
+            "modified": false
+          },
+          {
+            "username": "젠이츠",
+            "date": "06-06",
+            "good": 1,
+            "description": "애니메이션 산업 포럼 개최 소식을 듣고 너무 기쁩니다! ",
+            "modified": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "img": "https://samg.net/2020/wp-content/uploads/2020/07/Volt_A01-e1600223825253-734x1024.png",
+        "username": "SAMG",
+        "title": "애니메이션 스튜디오 채용 공고",
+        "article": "애니메이션 제작 스튜디오에서 신규 인력을 모집합니다. 저희 스튜디오는 국내외에서 사랑받는 애니메이션 작품을 제작하고 있으며, 세계적인 시청자들에게 큰 인기를 얻고 있습니다. 현재, 저희 스튜디오에서는 우수한 인재들을 찾고 있으며, 애니메이션 제작에 관심이 있는 열정적인 분들을 기다리고 있습니다. 이 포지션에 관심이 있으신 분들은 우리 사이트에서 채용 공고를 확인하고 지원서를 제출해주시기 바랍니다. 우리 스튜디오에서는 창의적인 작업 환경과 함께 전문적인 역량을 키울 수 있는 기회를 제공하고 있습니다. 채용 프로세스와 자격 요건에 대한 자세한 정보는 공고를 참고해주세요. 많은 지원 바랍니다!",
+        "tag": "공지사항",
+        "date": "06-10",
+        "view": 400,
+        "modified": false,
+        "good": 0,
+        "comment": []
+      }
+    ]
+  },
+  "free": {
+    "name": "free",
+    "posts": [
+      {
+        "id": 3,
+        "img": "https://i.namu.wiki/i/7KbVp1D6I4eUFoaDK7GgGtMML-PlopAoUdr--gwCjz99i_aCv6TCwCcVfdhQ512x_t3Xfratob9umAwBjXDihA.webp",
+        "username": "청춘바니걸",
+        "title": "인기 애니메이션 추천",
+        "article": "안녕하세요, 최근에 시청한 인기 애니메이션을 추천드립니다. 최근 애니메이션 산업은 탁월한 작품들로 가득하며, 그 중 일부를 소개하고자 합니다. '오렌지 자",
+        "tag": "자유 게시판",
+        "date": "10분 전",
+        "view": 10,
+        "modified": false,
+        "good": 1,
+        "comment": [
+          {
+            "username": "렌고쿠",
+            "date": "2분 전",
+            "good": 10,
+            "description": "노잼",
+            "modified": false
+          }
+        ]
+      }
+    ]
+  },
+  "event": {
+    "name": "event",
+    "posts": [
+      {
+        "id": 4,
+        "img": "https://www.animaxtv.co.kr/sites/animaxtv.co.kr/files/styles/image_1170x658/public/imageedit_8_2295137579.jpg?itok=woPtPqzD",
+        "username": "렌고쿠",
+        "title": "애니메이션 팬 미팅 이벤트 개최 안내",
+        "article": "애니메이션 팬 여러분들께 특별한 소식입니다! 저희는 애니메이션 팬 미팅 이벤트를 개최합니다. 이 이벤트는 애니메이션 팬들의 모임으로, 서로의 애니메이션 관련 이야기를 나누고 소통할 수 있는 좋은 기회입니다. 이벤트에서는 다양한 애니메이션 작품에 대한 퀴즈, 퀴즈 대회, 캐릭터 코스프레 등의 활동이 준비되어 있습니다. 또",
+        "tag": "이벤트",
+        "date": "15분 전",
+        "view": 60,
+        "modified": false,
+        "good": 3,
+        "comment": [
+          {
+            "username": "ㅠㅠ",
+            "date": "2분 전",
+            "good": 0,
+            "description": "참여합니다!",
+            "modified": false
+          }
+        ]
+      }
+    ]
+  }
+}
